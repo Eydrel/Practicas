@@ -1,6 +1,6 @@
 <template>
 <v-container grid-list-md>
-    <h1 class="text-center"> Contacto </h1>
+    <h1 class="text-center"> Apoyo Emocional </h1>
     <v-layout row wrap>
 
 
@@ -11,16 +11,72 @@
             align="center"
             >
                 <v-img 
-                src="@/assets/chatenvivo2.png">
+                max-width="100"
+                src="@/assets/condadic.jpg">
                 </v-img>
-                   
-                    <v-btn
+                <h4>Linea de la Vida</h4>
+                <v-card-text 
+                class="text-justify"
+                >
+               En la "Línea de la Vida" de la CONADIC, se ofrece atención en materia de adicciones y salud mental, para cualquier tipo de persona con problemas
+               psicológicos, depresion, etc.
+                    </v-card-text>
+                  <div class="text-left">
+                         <div>
+                        <v-btn
+                          align="left"
                           text
                           color="teal accent-4"
-                          href="http://edu.educacionbienestaritson.mx/cursos/">
-                        Contactar
-                           </v-btn>
-                          
+                          href="https://www.facebook.com/LaLineaDeLaVidamx/">
+                          @LaLineaDeLaVidamx <v-icon dark right>mdi-facebook</v-icon>
+                           </v-btn>          
+                 </div>
+                       <div>
+                      </div>
+
+                        <div>
+                        <v-btn
+                          align="left"
+                          text
+                          color="teal accent-4"
+                          href="https://twitter.com/LineaDe_LaVida/"
+                          >
+                           @CONADICmx <v-icon dark right>mdi-twitter</v-icon> 
+                           </v-btn>          
+                      </div>
+
+                      <div>
+                        <v-btn
+                          align="left"
+                          text
+                          color="teal accent-4">
+                           Lunes a Domingo <v-icon dark right>mdi-calendar</v-icon> 
+                           </v-btn>          
+                      </div>
+
+                      <div>
+                          <v-btn
+                          align="left"
+                          text
+                          color="teal accent-4"
+                          >
+                           24 Horas <v-icon dark right>mdi-clock</v-icon> 
+                           </v-btn>  
+                      </div>
+
+                      <div color="teal accent-4">
+                      <ul >
+                      <li>Publico General</li>
+                      <li>Riesgo suicida</li>
+                      <li>Atención especializada sobre consumo de sustancias</li>
+                      <li>Violencia</li>
+                      <li>Totalmente Gratuito</li>
+                  
+                     
+                    </ul>
+                      </div>
+                      </div>
+                       
       </v-card>
         </v-flex>
 
@@ -31,16 +87,66 @@
             max-width="600"
             align="center"
             >
-                <v-img 
-                src="@/assets/logo1.png">
+               <v-img 
+                max-width="100"
+                src="@/assets/th.jpg">
                 </v-img>
+                <h4>Instituto Sonorense de La Mujer</h4>
+                 <v-card-text 
+                class="text-justify"
+                >
+              Facilita las herramientas efectivas para las mujeres a partir de los 16 años de edad que les permitan superar la situación de violencia familiar y mejorar su calidad de vida emocional.
+                    </v-card-text>
+                        <div class="text-left">
+                         <div>
                         <v-btn
+                          align="left"
+                          text
+                          color="teal accent-4">                        
+                          644 410 5126 <v-icon dark right>mdi-phone</v-icon>
+                           </v-btn>          
+                        </div>
+                        <div>
+                        <v-btn
+                          align="left"
                           text
                           color="teal accent-4"
-                          href="http://edu.educacionbienestaritson.mx/cursos/">
-                        Contactar
-                           </v-btn>
-                          
+                          href="https://www.facebook.com/Instituto-Cajemense-de-la-Mujer-1481124038791203/">
+                          @InstitutoCajemensedelaMujer <v-icon dark right>mdi-facebook</v-icon>
+                           </v-btn>          
+                           </div>
+                         <div>
+                        <v-btn
+                          align="left"
+                          text
+                          color="teal accent-4"
+                          href="https://www.google.com.mx/maps/search/Sinaloa+%23140+planta+baja+85000+Ciudad+Obregón,+Sonora,+Mexico/@27.4971522,-109.9316528,21z">                        
+                          Sinaloa #140 planta baja <v-icon dark right>mdi-map</v-icon>
+                           </v-btn>          
+                        </div>
+
+                        <div>
+                        <v-btn
+                          align="left"
+                          text
+                          color="teal accent-4"
+                          >                        
+                          Lunes a Viernes 8:00AM-3:00PM <v-icon dark right>mdi-calendar</v-icon>
+                           </v-btn>          
+                        </div>
+                         
+                      <div color="teal accent-4">
+                      <ul >
+                      <li>Primeros auxilios psicológicos</li>
+                      <li>Atención individual</li>
+                      <li>Acompañamiento Grupal</li>
+                      <li>Los Servicios son totalmente Gratuitos</li>
+                      <li>Oficinas en Ciudad Obregón</li>
+                    </ul>
+                    
+                      </div>         
+                        
+                        </div>
       </v-card>
         </v-flex>
 
@@ -93,6 +199,7 @@
 </template>
 
 <script>
+
   export default {
     data: () => ({
       mostrar: false,
