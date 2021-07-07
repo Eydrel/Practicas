@@ -15,11 +15,12 @@ class="d-flex justify-space-around mb-6"
 
 >
 
-<v-card-text class="text-justify">
-Somos un grupo de investigadores de varias universidades interesados en difundir los resultados de nuestras investigaciones al servicio de nuestra comunidad
-  
+<h2>
+Somos un grupo de investigadores de varias universidades interesados en difundir los resultados
+de nuestras investigaciones al servicio de nuestra comunidad.
 
-</v-card-text>
+</h2>
+
 <v-slider disabled
 hint="im a hint"
 max="50"
@@ -27,7 +28,7 @@ min="-50"
 vertical
 ></v-slider>
 <v-card-text class="text-justify">
-  <h1></h1>
+  
 </v-card-text>
 </v-card>
 
