@@ -10,7 +10,7 @@
             max-width="600"
             >
                 <v-img 
-                src="@/assets/diabetes.jpg">
+                src="@/assets/salud.png">
                 </v-img>
                      <v-card-title>
                       <h2>Salud</h2>
@@ -61,7 +61,7 @@
             max-width="600"
             >
                 <v-img 
-                src="@/assets/diabetes.jpg">
+                src="@/assets/adultosmayores.png">
                 </v-img>
                      <v-card-title>
                       <h2>Adultos Mayores</h2>
@@ -111,7 +111,7 @@
                     max-width="600"
              >
                 <v-img 
-                src="@/assets/diabetes.jpg">
+                src="@/assets/sustentabilidad.png">
                 </v-img>
                      <v-card-title>
                       <h2>Sustentabilidad</h2>
@@ -162,7 +162,7 @@
             max-width="600"
             >
                 <v-img 
-                src="@/assets/diabetes.jpg">
+                src="@/assets/Educación.png">
                 </v-img>
                      <v-card-title>
                       <h2>Educacion</h2>
