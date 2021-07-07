@@ -111,7 +111,7 @@
                     max-width="600"
              >
                 <v-img 
-                src="@/assets/sustentabilidad.png">
+                src="@/assets/sustentabilidad.jpg">
                 </v-img>
                      <v-card-title>
                       <h2>Sustentabilidad</h2>

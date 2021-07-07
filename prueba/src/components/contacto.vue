@@ -142,6 +142,7 @@
                       <li>Acompañamiento Grupal</li>
                       <li>Los Servicios son totalmente Gratuitos</li>
                       <li>Oficinas en Ciudad Obregón</li>
+                      <li>Especialmente hacia mujeres</li>
                     </ul>
                     
                       </div>         
@@ -156,16 +157,64 @@
             max-width="600"
             align="center"
             >
-                <v-img 
-                src="@/assets/whatsapp1.2.png">
+              <v-img 
+                max-width="100"
+                src="@/assets/Cedam.jpg">
                 </v-img>
+                 <h4>Centro de desarrollo para adultos mayores</h4>
+                 <v-card-text 
+                class="text-justify"
+                >
+             Ofrecer a las personas adultas mayores un espacio seguro y confortable donde puedan participar en actividades que promuevan el envejecimiento activo, así como el acceso a los programas y servicios de las instituciones gubernamentales y de los organismos de la sociedad civil.
+                    </v-card-text>
+                     <div class="text-left">
+                       <div>
+                             <v-btn 
+                              text
+                              color="teal accent-4"
+                              href="https://sedesson.gob.mx/cedam">
+                              Sitio Gubernamental
+                        </v-btn>
+                       </div>
+                        <div>
+                        <v-btn
+                          align="left"
+                          text
+                          color="teal accent-4"
+                          href="https://www.facebook.com/CEDAM-100748838343788/?ref=page_internal">
+                          @CEDAM <v-icon dark right>mdi-facebook</v-icon>
+                           </v-btn>          
+                           </div>
+                        <div>
+                        <v-btn
+                          align="left"
+                          text
+                          color="teal accent-4"
+                          href="https://www.google.com.mx/maps/@27.4960041,-109.9342966,3a,52.6y,352.27h,91.04t/data=!3m6!1e1!3m4!1sb8M8CZjq9IK30lutOLxLFA!2e0!7i16384!8i8192">                        
+                         Alvaro Obregón #480 Poniente <v-icon dark right>mdi-map</v-icon>
+                           </v-btn>          
+                        </div>
+                         <div>
+                        <v-btn
+                          align="left"
+                          text
+                          color="teal accent-4">                        
+                          644 444 3129 <v-icon dark right>mdi-phone</v-icon>
+                           </v-btn>          
+                        </div>
+
+                          <div color="teal accent-4">
+                      <ul >
+                      <li>Primeros auxilios psicológicos</li>
+                      <li>Acompañamiento Grupal</li>
+                      <li>Los Servicios son totalmente Gratuitos</li>
+                      <li>Oficinas en Ciudad Obregón</li>
                    
-      <v-btn 
-          text
-          color="teal accent-4"
-          href="http://locatel.cdmx.gob.mx">
-          Contactar
-      </v-btn>
+                    </ul>
+                    
+                      </div>   
+                     </div>
+    
 
     <v-expand-transition>
       <v-card

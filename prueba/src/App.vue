@@ -33,21 +33,29 @@
       >
         <v-list-item-group
           v-model="group"
-          active-class="deep-purple--text text--accent-4"
+          active-class="text-uppercase grey--text"
         >
           <v-list-item>
             <v-list-item-icon>
               <v-icon>mdi-home</v-icon>
             </v-list-item-icon>
-            <v-list-item-title>Home</v-list-item-title>
+            <v-btn  text color="text-uppercase grey--text" x small  :to="{name:'Home'}">Principal </v-btn>
           </v-list-item>
 
-          <v-list-item>
+            <v-list-item>
             <v-list-item-icon>
               <v-icon>mdi-account</v-icon>
             </v-list-item-icon>
-            <v-list-item-title>Account</v-list-item-title>
+            <v-btn  text color="text-uppercase grey--text" x small  :to="{name:'Servicios'}">Formacion-Cursos</v-btn>
           </v-list-item>
+      
+            <v-list-item>
+            <v-list-item-icon>
+              <v-icon>mdi-text</v-icon>
+            </v-list-item-icon>
+            <v-btn  text color="text-uppercase grey--text" x small  :to="{name:'Info'}">Quienes Somos</v-btn>
+          </v-list-item>
+          
         </v-list-item-group>
       </v-list>
     </v-navigation-drawer>
