@@ -10,12 +10,14 @@ hint="im a hint"
 max="50"
 min="-50"
 ></v-slider>
-<h1 class="text--secondary">
-  <p class="text-justify">
+<v-content class="mx-7">
+<h1 >
+  
 Somos un grupo de investigadores de varias universidades interesados en difundir los resultados
 de nuestras investigaciones al servicio de nuestra comunidad.
-  </p>
+
 </h1>
+
 <h2 class="text--secondary">
   <p class="text-justify">
 El Inicio del proyecto comenzo con la idea de proveer Información necesaria y útil para personas de la tercera edad, 
@@ -24,6 +26,8 @@ dificíl encontrar Información veridica, pudieran informarse y cuidarse, como t
 mental.
   </p>
 </h2>
+</v-content>
+
   
     
   <equipo/>

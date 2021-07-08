@@ -5,6 +5,7 @@
 <parrallax/>
 <pasos/>
  <contacto/>
+
  <Footer/>
 
 </div>

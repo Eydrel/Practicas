@@ -1,19 +1,18 @@
 <template>
 <v-container grid-list-md>
     <h1 class="text-center"> Acerca de </h1>
-    <v-layout row wrap>
-
-
+    <v-layout row wrap >
         <v-flex xs12 sm6 md4 lg3  >
             <v-card
-            class="mx-auto"
+            class="mx-4"
             max-width="600"
+            
             >
                 <v-img 
                 src="@/assets/salud.png">
                 </v-img>
                      <v-card-title>
-                      <h2>Salud</h2>
+                      <h3>Salud</h3>
                     </v-card-title>
                     <v-card-text>
                 En este sitio podrás encontrar  información importante para el cuidado de la salud física y Emocional de niños, adolescentes y adultos.
@@ -57,17 +56,17 @@
 
  <v-flex xs12 sm6 md4 lg3  >
             <v-card
-            class="mx-auto"
+           class="mx-4"
             max-width="600"
             >
                 <v-img 
-                src="@/assets/adultosmayores.png">
+                src="@/assets/adultosmayores.jpg">
                 </v-img>
                      <v-card-title>
-                      <h2>Adultos Mayores</h2>
+                      <h3>Adultos Mayores</h3>
                     </v-card-title>
                 <v-card-text>
-               Envejecer activo y  exitoso…. Encontrando y generando mis opciones
+               Envejecer activo y exitoso, encontrando y generando opciones para un enevejecimiento exitoso, con diversas opciones de ejercios mentales
                     </v-card-text>
                       <v-card-actions>
                         <v-btn
@@ -107,17 +106,17 @@
 
         
         <v-flex xs12 sm6 md4 lg3>
-            <v-card class="mx-auto"
+            <v-card class="mx-4"
                     max-width="600"
              >
                 <v-img 
                 src="@/assets/sustentabilidad.jpg">
                 </v-img>
                      <v-card-title>
-                      <h2>Sustentabilidad</h2>
+                      <h3>Sustentabilidad</h3>
                     </v-card-title>
                     <v-card-text>
-             Cómo lograr  atender  las necesidades presente  de los seres humanos sin descuidar lo que se hereda a las futuras generaciones
+             Cómo lograr  atender  las necesidades presente  de los seres humanos sin descuidar lo que se hereda a las futuras generaciones, mediante actos responsables
                     </v-card-text>
                    
                     <v-card-actions>
@@ -158,18 +157,17 @@
     
         <v-flex xs12 sm6 md4 lg3 >
             <v-card
-            class="mx-auto"
+            class="mx-4"
             max-width="600"
             >
                 <v-img 
                 src="@/assets/Educación.png">
                 </v-img>
                      <v-card-title>
-                      <h2>Educacion</h2>
+                      <h3>Educacion</h3>
                     </v-card-title>
                     <v-card-text>
-                Aprendizaje al 100….. Todos con el mismo propósito… Buscando las estrategias
-                    </v-card-text>
+                Aqui encontraras informacion correspondiente a la educacion, con diverso material de investigacion, en el ambito educativo.                  </v-card-text>
                    <v-card-actions>
       <v-btn
         text

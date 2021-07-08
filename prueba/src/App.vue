@@ -1,9 +1,7 @@
 <template>
   <v-app>
-  
     <nav>
-        <v-toolbar flat app class="white"
-        >
+        <v-toolbar flat app class="white" >
             <v-app-bar-nav-icon class="grey--text" @click="drawer = !drawer"></v-app-bar-nav-icon>
 
             <v-toolbar-title class="text-uppercase grey--text">
