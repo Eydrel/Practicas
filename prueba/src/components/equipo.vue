@@ -5,7 +5,7 @@
            <v-flex xs12 sm6 md4 >
     <v-card
     class="mx-auto"
-    max-width="434"
+    max-width="300"
     tile
     
   >
@@ -50,7 +50,7 @@
          <v-flex xs12 sm6 md4 >
     <v-card
     class="mx-auto"
-    max-width="434"
+    max-width="300"
     tile
   >
     <v-img
@@ -94,7 +94,7 @@
          <v-flex xs12 sm6 md4 >
     <v-card
     class="mx-auto"
-    max-width="434"
+    max-width="300"
     tile
   >
     <v-img
