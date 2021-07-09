@@ -1,7 +1,7 @@
 <template>
 <v-carousel
 
-height="400"
+height="550"
 
 hide-delimiter-background
 >
@@ -22,7 +22,7 @@ hide-delimiter-background
       return {
         items: [
           {
-            src: 'https://cdn.vuetifyjs.com/images/carousel/squirrel.jpg',
+            src: 'https://www.paho.org/sites/default/files/styles/flexslider_full/public/2020-03/blue-covid-banner.jpg?h=96546727&itok=xDLAoRJF',
           },
           {
             src: 'https://cdn.vuetifyjs.com/images/carousel/sky.jpg',

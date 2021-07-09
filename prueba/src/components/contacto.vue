@@ -142,7 +142,7 @@
                       <li>Acompañamiento Grupal</li>
                       <li>Los Servicios son totalmente Gratuitos</li>
                       <li>Oficinas en Ciudad Obregón</li>
-                      <li>Especialmente hacia mujeres</li>
+                      
                     </ul>
                     
                       </div>         

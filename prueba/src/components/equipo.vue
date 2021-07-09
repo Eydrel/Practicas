@@ -32,7 +32,7 @@
         </v-col>
         <v-col class="py-0" >
           <v-list-item
-            color="rgba(0, 0, 0, .4)"
+            color="rgba(0, 0, 0, .5)"
             dark
           >
             <v-list-item-content >
@@ -76,7 +76,7 @@
         </v-col>
         <v-col class="py-0">
           <v-list-item
-            color="rgba(0, 0, 0, .4)"
+            color="rgba(0, 0, 0, .5)"
             dark
           >
             <v-list-item-content>
@@ -136,6 +136,6 @@
   </v-card>
            </v-flex>  
       </v-layout>
-       <h1 class="text-center"> Equipo Investigador</h1>
+       
 </v-container>
 </template>

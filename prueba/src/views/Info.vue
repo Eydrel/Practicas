@@ -1,48 +1,51 @@
 <template>
     
-<container>
-
-  <v-parallax src="https://fondosmil.com/fondo/71316.png"></v-parallax>
-<h1 class="text-center"> Quienes Somos </h1>
-<v-slider disabled
+<container >
+   <v-parallax src="https://fondosmil.com/fondo/71316.png"></v-parallax>
+    <h1 class="text-center"> Quienes Somos</h1>
+     <v-slider disabled
 dense
 hint="im a hint"
 max="50"
 min="-50"
 ></v-slider>
-<v-content class="mx-7">
-<h1 >
-  
-Somos un grupo de investigadores de varias universidades interesados en difundir los resultados
-de nuestras investigaciones al servicio de nuestra comunidad.
-
-</h1>
-
-<h2 class="text--secondary">
-  <p class="text-justify">
-El Inicio del proyecto comenzo con la idea de proveer Información necesaria y útil para personas de la tercera edad, 
-acerca de temas recientes y situaciones importantes, acerca del virus sars cov 2 (Covid-19), en donde personas que le es 
-dificíl encontrar Información veridica, pudieran informarse y cuidarse, como también tuvieran conocimiento acerca de su salud
-mental.
-  </p>
-</h2>
-</v-content>
-
-  
-    
-  <equipo/>
+<prueba-componente/>
+<equipo/>
 <Footer/>
 </container>
+
 </template>
 <script>
  
  import Footer from '../components/Footer'
  import equipo from '../components/equipo.vue'
+ import pruebaComponente from '../components/pruebaComponente.vue'
 export default {
   components: {
-     Footer,equipo,
+     Footer,equipo,pruebaComponente
     },
-}
+data () {
+  return {
+        items: [
+          {
+            src: 'https://scontent.fcen1-1.fna.fbcdn.net/v/t1.6435-9/151205759_3663686247083296_3271210901438188425_n.jpg?_nc_cat=111&ccb=1-3&_nc_sid=e3f864&_nc_eui2=AeFi0Qh0Cgw51meMbyd6DgnW1j0xLyqoT4vWPTEvKqhPixC8eLZVRcG1W-75qsjiLqOUK3ZLxvAB1YUg0VjJZ9f3&_nc_ohc=i6PtJnYZYZgAX9dXgcH&_nc_ht=scontent.fcen1-1.fna&oh=6e0bb4ec01885ad02e5b1ea0fdc1e3d9&oe=60ECF06E',
+          },
+          {
+            src: 'https://cdn.vuetifyjs.com/images/carousel/sky.jpg',
+          },
+          {
+            src: 'https://cdn.vuetifyjs.com/images/carousel/bird.jpg',
+          },
+          {
+            src: 'https://cdn.vuetifyjs.com/images/carousel/planet.jpg',
+          },
+          {
+            src: 'https://cdn.vuetifyjs.com/images/carousel/planet.jpg',
+          },
+        ],
+      }
+    },
+  }
 </script>
 
 <style scoped>
