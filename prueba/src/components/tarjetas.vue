@@ -9,10 +9,10 @@
             
             >
                 <v-img 
-                src="@/assets/salud.png">
+                src="@/assets/salud1.png">
                 </v-img>
-                     <v-card-title>
-                      <h3>Salud</h3>
+                     <v-card-title class="orange lighten-5">
+                      <h2>Salud</h2>
                     </v-card-title>
                     <v-card-text>
                 En este sitio podrás encontrar  información importante para el cuidado de la salud física y Emocional de niños, adolescentes y adultos.
@@ -60,10 +60,10 @@
             max-width="600"
             >
                 <v-img 
-                src="@/assets/adultosmayores.jpg">
+                src="@/assets/edultosmayores1.png">
                 </v-img>
-                     <v-card-title>
-                      <h3>Adultos Mayores</h3>
+                     <v-card-title class="deep-orange lighten-5">
+                      <h2>Adultos Mayores</h2>
                     </v-card-title>
                 <v-card-text>
                Envejecer activo y exitoso, encontrando y generando opciones para un enevejecimiento exitoso, con diversas opciones de ejercios mentales
@@ -110,10 +110,10 @@
                     max-width="600"
              >
                 <v-img 
-                src="@/assets/sustentabilidad.jpg">
+                src="@/assets/sustentabilidad1.png">
                 </v-img>
-                     <v-card-title>
-                      <h3>Sustentabilidad</h3>
+                     <v-card-title class= "green lighten-5">
+                      <h2>Sustentabilidad</h2>
                     </v-card-title>
                     <v-card-text>
              Cómo lograr  atender  las necesidades presente  de los seres humanos sin descuidar lo que se hereda a las futuras generaciones, mediante actos responsables
@@ -161,10 +161,10 @@
             max-width="600"
             >
                 <v-img 
-                src="@/assets/Educación.png">
+                src="@/assets/educacion2.png">
                 </v-img>
-                     <v-card-title>
-                      <h3>Educacion</h3>
+                     <v-card-title class="deep-orange lighten-5" >
+                      <h2 >Educacion</h2>
                     </v-card-title>
                     <v-card-text>
                 Aqui encontraras informacion correspondiente a la educacion, con diverso material de investigacion, en el ambito educativo.                  </v-card-text>
