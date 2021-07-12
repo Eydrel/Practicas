@@ -11,11 +11,11 @@
             <v-spacer></v-spacer>
         <v-toolbar-items> 
             <div class="d-none d-lg-block">
-            <v-btn class="ma-2" rounded x-large outlined color="primary" :to="{name:'Home'}">Principal </v-btn>
-            <v-btn class="ma-2" rounded x-large outlined color="pink" :to="{name: 'Servicios'}">Formación - Cursos</v-btn>
-            <v-btn class="ma-2" rounded x-large outlined color="secondary">Informativa</v-btn>
-            <v-btn class="ma-2" rounded x-large outlined color="primary">Propósito</v-btn>
-            <v-btn class="ma-2" rounded x-large outlined color="blue" :to="{name: 'Info'}">Quiénes Somos</v-btn>
+            <v-btn class="ma-2" rounded large outlined color="primary" :to="{name:'Home'}">Principal </v-btn>
+            <v-btn class="ma-2" rounded large outlined color="pink" :to="{name: 'Servicios'}">Formación - Cursos</v-btn>
+            <v-btn class="ma-2" rounded large outlined color="secondary">Informativa</v-btn>
+            <v-btn class="ma-2" rounded large outlined color="primary">Propósito</v-btn>
+            <v-btn class="ma-2" rounded large outlined color="blue" :to="{name: 'Info'}">Quiénes Somos</v-btn>
             </div>
          </v-toolbar-items> 
         </v-toolbar>

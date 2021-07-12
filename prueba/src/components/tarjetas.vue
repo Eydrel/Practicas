@@ -4,17 +4,19 @@
     <v-layout row wrap >
         <v-flex xs12 sm6 md4 lg3  >
             <v-card
-            class="mx-4"
+            class="mx-2"
             max-width="600"
             
             >
                 <v-img 
                 src="@/assets/salud1.png">
                 </v-img>
+
                      <v-card-title class="orange lighten-5">
                       <h2>Salud</h2>
-                    </v-card-title>
+                     </v-card-title>
                     <v-card-text>
+                      
                 En este sitio podrás encontrar  información importante para el cuidado de la salud física y Emocional de niños, adolescentes y adultos.
                     </v-card-text>
                       <v-card-actions>
@@ -56,7 +58,7 @@
 
  <v-flex xs12 sm6 md4 lg3  >
             <v-card
-           class="mx-4"
+           class="mx-2"
             max-width="600"
             >
                 <v-img 
@@ -66,7 +68,7 @@
                       <h2>Adultos Mayores</h2>
                     </v-card-title>
                 <v-card-text>
-               Envejecer activo y exitoso, encontrando y generando opciones para un enevejecimiento exitoso, con diversas opciones de ejercios mentales
+               Envejecer activo y exitoso, encontrando y generando opciones para un envejecimiento exitoso, con diversas opciones de ejercios mentales
                     </v-card-text>
                       <v-card-actions>
                         <v-btn
@@ -106,7 +108,7 @@
 
         
         <v-flex xs12 sm6 md4 lg3>
-            <v-card class="mx-4"
+            <v-card class="mx-2"
                     max-width="600"
              >
                 <v-img 
@@ -157,7 +159,7 @@
     
         <v-flex xs12 sm6 md4 lg3 >
             <v-card
-            class="mx-4"
+            class="mx-2"
             max-width="600"
             >
                 <v-img 

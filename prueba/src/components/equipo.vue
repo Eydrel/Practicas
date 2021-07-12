@@ -99,7 +99,7 @@
   >
     <v-img
       height="100%"
-      src="@/assets/nanahd.jpg"
+      src="@/assets/lorena.png"
     >
       <v-row
         align="end"

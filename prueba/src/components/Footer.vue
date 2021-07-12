@@ -7,16 +7,52 @@
       justify="center"
       no-gutters
     >
+  
+
       <v-btn
-        v-for="link in links"
-        :key="link"
         color="black"
         text
         rounded
         class="my-2"
-      >
-        {{ link }}
+        :to="{name:'Home'}"
+      >Inicio</v-btn>
+
+  
+      <v-btn
+        color="black"
+        text
+        rounded
+        class="my-2"
+        :to="{name:'Servicios'}"
+      >Formación - Cursos
       </v-btn>
+        <v-btn
+        color="black"
+        text
+        rounded
+        class="my-2"
+        :to="{name:'#'}"
+      >Informativa
+      </v-btn>
+
+         <v-btn
+        color="black"
+        text
+        rounded
+        class="my-2"
+        :to="{name:''}"
+      >Propósito
+      </v-btn>
+
+       <v-btn
+        color="black"
+        text
+        rounded
+        class="my-2"
+        :to="{name:'Info'}"
+      >Quiénes Somos
+      </v-btn>
+
       <v-col
       color=""
         class="grey lighten-4 py-4 text-center black--text"
@@ -26,20 +62,17 @@
       </v-col>
     </v-row>
   </v-footer>
-
-  
 </template>
 
 <script>
   export default {
     data: () => ({
       links: [
-        'Home',
-        'About Us',
-        'Team',
-        'Services',
-        'Blog',
-        'Contact Us',
+        'Inicio ' ,
+        'Formación - Cursos',
+        'Informativa',
+        'Propósito',
+        'Quiénes Somos',
       ],
     }),
   }
