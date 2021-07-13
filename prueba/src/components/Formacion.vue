@@ -14,9 +14,11 @@
         <div class="text-overline mb-4">
           Adultos Mayores
         </div>
+
         <v-list-item-title class="text-h5 mb-1">
           Curso para envejecimiento activo en adultos Mayores
         </v-list-item-title>
+
         <v-list-item-subtitle class="text-h6 mb-1">
         Nuestra sociedad ha obtenido grandes éxitos con los avances científicos y tecnológicos de las últimas décadas.  
         </v-list-item-subtitle>
@@ -304,6 +306,7 @@
         <div class="text-overline mb-4">
          Diabetes
         </div>
+        
         <v-list-item-title class="body-1 "><strong>
             Acerca de la Diabetes
         </strong>

@@ -1,5 +1,5 @@
 <template>
    <v-img 
-                src="@/assets/covid.png">
+                src="@/assets/COVID19.jpg">
                 </v-img>
 </template>

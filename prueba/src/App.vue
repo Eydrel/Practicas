@@ -13,7 +13,7 @@
             <div class="d-none d-lg-block">
             <v-btn class="ma-2" rounded large outlined color="primary" :to="{name:'Home'}">Principal </v-btn>
             <v-btn class="ma-2" rounded large outlined color="pink" :to="{name: 'Servicios'}">Formación - Cursos</v-btn>
-            <v-btn class="ma-2" rounded large outlined color="secondary">Informativa</v-btn>
+            <v-btn class="ma-2" rounded large outlined color="secondary" :to="{name:'Informativa'}">Informativa</v-btn>
             <v-btn class="ma-2" rounded large outlined color="primary">Propósito</v-btn>
             <v-btn class="ma-2" rounded large outlined color="blue" :to="{name: 'Info'}">Quiénes Somos</v-btn>
             </div>
@@ -45,6 +45,13 @@
               <v-icon>mdi-account</v-icon>
             </v-list-item-icon>
             <v-btn  text color="text-uppercase grey--text" x small  :to="{name:'Servicios'}">Formacion-Cursos</v-btn>
+          </v-list-item>
+          
+          <v-list-item>
+            <v-list-item-icon>
+              <v-icon>mdi-account</v-icon>
+            </v-list-item-icon>
+            <v-btn  text color="text-uppercase grey--text" x small  :to="{name:'Informativa'}">Informativa</v-btn>
           </v-list-item>
       
             <v-list-item>
