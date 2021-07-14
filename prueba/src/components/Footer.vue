@@ -8,7 +8,6 @@
       no-gutters
     >
   
-
       <v-btn
         color="black"
         text
@@ -26,12 +25,13 @@
         :to="{name:'Servicios'}"
       >Formación - Cursos
       </v-btn>
+
         <v-btn
         color="black"
         text
         rounded
         class="my-2"
-        :to="{name:'#'}"
+        :to="{name:'Informativa'}"
       >Informativa
       </v-btn>
 

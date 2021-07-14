@@ -7,7 +7,7 @@
     
     max-width="1400"
     outlined
-     class="mx-auto"
+     class="mx-auto grey lighten-3"
   >
     <v-list-item three-line>
       <v-list-item-content>
@@ -41,7 +41,7 @@
     
     max-width="1400"
     outlined
-     class="mx-auto"
+     class="mx-auto grey lighten-3"
   >
     <v-list-item three-line>
       <v-list-item-content>
@@ -73,7 +73,7 @@
     
     max-width="1400"
     outlined
-     class="mx-auto"
+     class="mx-auto grey lighten-3"
   >
     <v-list-item three-line>
       <v-list-item-content>
@@ -105,7 +105,7 @@
     
     max-width="1400"
     outlined
-     class="mx-auto"
+     class="mx-auto grey lighten-3"
   >
     <v-list-item three-line>
       <v-list-item-content>
@@ -138,7 +138,7 @@
     
     max-width="1400"
     outlined
-     class="mx-auto"
+     class="mx-auto grey lighten-3"
   >
     <v-list-item three-line>
       <v-list-item-content>
@@ -177,7 +177,7 @@
     
     max-width="1400"
     outlined
-     class="mx-auto"
+     class="mx-auto grey lighten-3"
   >
     <v-list-item three-line>
       <v-list-item-content>
@@ -207,7 +207,7 @@
     
     max-width="1400"
     outlined
-     class="mx-auto"
+     class="mx-auto grey lighten-3"
   >
     <v-list-item three-line>
       <v-list-item-content>
@@ -237,7 +237,7 @@
     
     max-width="1400"
     outlined
-     class="mx-auto"
+     class="mx-auto grey lighten-3"
   >
     <v-list-item three-line>
       <v-list-item-content>
@@ -268,7 +268,7 @@
     
     max-width="1400"
     outlined
-     class="mx-auto"
+     class="mx-auto grey lighten-3"
   >
     <v-list-item three-line>
       <v-list-item-content>
@@ -299,7 +299,7 @@
     
     max-width="1400"
     outlined
-     class="mx-auto"
+     class="mx-auto grey lighten-3"
   >
     <v-list-item three-line>
       <v-list-item-content>

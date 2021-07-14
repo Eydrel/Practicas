@@ -120,16 +120,15 @@
                     <v-card-text>
              Cómo lograr  atender  las necesidades presente  de los seres humanos sin descuidar lo que se hereda a las futuras generaciones, mediante actos responsables
                     </v-card-text>
-                   
                     <v-card-actions>
-      <v-btn
-        text
-        color="teal accent-4"
-        @click="show = true"
-      >
-        Mostrar más
-      </v-btn>
-    </v-card-actions>
+                    <v-btn
+                      text
+                      color="teal accent-4"
+                      @click="show = true"
+                    >
+                  Mostrar más
+                  </v-btn>
+                  </v-card-actions>
 
     <v-expand-transition>
       <v-card
@@ -151,6 +150,7 @@
           >
             Cerrar
           </v-btn>
+          <v-btn color="primary">Conocer más </v-btn>
         </v-card-actions>
       </v-card>
     </v-expand-transition>
@@ -200,6 +200,7 @@
           >
             Cerrar
           </v-btn>
+          <v-btn color="primary">Conocer más </v-btn>
         </v-card-actions>
       </v-card>
     </v-expand-transition>
