@@ -22,7 +22,7 @@ hide-delimiter-background
       return {
         items: [
           {
-            src: 'https://www.paho.org/sites/default/files/styles/flexslider_full/public/2020-03/blue-covid-banner.jpg?h=96546727&itok=xDLAoRJF',
+            src: 'https://i.pinimg.com/originals/8f/86/d5/8f86d5fd68e23c7bb04a7bde3bf79f30.jpg',
           },
           {
             src: 'https://cdn.vuetifyjs.com/images/carousel/sky.jpg',
