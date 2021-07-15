@@ -1,7 +1,7 @@
 <template>
     
 <container >
-   <v-parallax src="https://fondosmil.com/fondo/71316.png"></v-parallax>
+  
     <h1 class="text-center"> Quienes Somos</h1>
      <v-slider disabled
 dense

@@ -37,11 +37,11 @@
             </v-card-actions>
 
             </v-card>
-            </div>
-            </v-flex>
+          
+           
         <br>
-        <v-flex lg>
-    <div class="d-none d-lg-block">
+       
+   
         <v-card
             max-width="1400"
             outlined
@@ -76,12 +76,12 @@
             </v-card-actions>
 
             </v-card>
-            </div>
-            </v-flex>
+           
+          
             
         <br>
-        <v-flex lg>
-    <div class="d-none d-lg-block">
+     
+   
         <v-card
             max-width="1400"
             outlined
@@ -116,12 +116,12 @@
             </v-card-actions>
 
             </v-card>
-            </div>
-            </v-flex>
+           
+           
 
         <br>
-        <v-flex lg>
-    <div class="d-none d-lg-block">
+       
+ 
         <v-card
             max-width="1400"
             outlined
@@ -156,11 +156,48 @@
             </v-card-actions>
 
             </v-card>
+           
+                    <br>
+    
+  
+        <v-card
+            max-width="1400"
+            outlined
+            class="mx-auto grey lighten-3"
+        >
+        <v-list-item three-line>
+           <!-- Educación - Maestros -->
+            <v-list-item-content>
+                <div class="text-overline mb-4">
+                Sustentabilidad
+                </div>
+            
+            <v-list-item-title class="text-h5 mb-1">
+            Un desarrollo sostenible y sustentable
+            </v-list-item-title>
+            
+            <v-list-item-subtitle class="text-h6 mb-1">
+           Siempre que se habla de cuestiones medioambientales y ecológicas están presentes estos dos términos; desarrollo sostenible o sustentable.
+            </v-list-item-subtitle>
+            <v-list-item-subtitle class="text-h6 mb-1">
+           Las diferentes alternativas a futuro hablan de un posible desarrollo sustentable o sostenible del planeta tierra, pero ¿qué quieren decir estos términos?
+            </v-list-item-subtitle>
+            </v-list-item-content>
+                     
+            <v-list-item-avatar
+                tile
+                height="200"
+                size="200"
+            ><v-img  src="@/assets/sustentabilidadInfo.jpg"></v-img></v-list-item-avatar>
+            </v-list-item>
+
+            <v-card-actions>
+            <v-btn class="ma-2" rounded large outlined color="blue" href="https://educacion.nexos.com.mx/pandemia-maestros-tecnologia-y-desigualdad/">SABER MAS ...</v-btn>
+            </v-card-actions>
+
+            </v-card>
             </div>
             </v-flex>
-
-
-        <br>
 
     <!-- Despues de este div, es la version de vista para pantallas menores a LG -->
     <v-flex class="d-lg-none d-md-flex">
@@ -176,20 +213,20 @@
         <v-list-item-content>
 
             <div class="text-overline mb-4">
-                Adultos Mayores
+                Salud
             </div>
 
         <v-list-item-title class="body-1 "><strong>
-            Envejecimiento Activo - Curso
+           Detección temprana de diabetes
         </strong>
         </v-list-item-title>
 
         <v-list-item-subtitle class="body-1">
-                 Nuestra sociedad ha obtenido grandes éxitos con los avances científicos  y
+                 a diabetes es una enfermedad en la que los niveles de glucosa (azúcar) de la sangre están muy altos. La glucosa proviene de los alimentos que consume.
         </v-list-item-subtitle>
 
          <v-list-item-subtitle class="body-1">
-               tecnológicos de las últimas décadas.  
+               La insulina es una hormona que ayuda a que la glucosa entre a las células para suministrarles energía.
         </v-list-item-subtitle>
 
         </v-list-item-content>
@@ -197,7 +234,7 @@
         </v-list-item>
 
         <v-card-actions>
-        <v-btn class="ma-2" rounded large outlined color="pink" href="http://edu.educacionbienestaritson.mx/cursos/?redirect=0">SABER MAS ...</v-btn>
+        <v-btn class="ma-2" rounded large outlined color="primary" href="https://medlineplus.gov/spanish/diabetes.html">SABER MAS ...</v-btn>
         </v-card-actions>
         
         </v-card>
@@ -213,20 +250,20 @@
         <v-list-item-content>
 
             <div class="text-overline mb-4">
-                Adultos Mayores
+               Educación
             </div>
 
         <v-list-item-title class="body-1 "><strong>
-            Envejecimiento Activo - Curso
+            Modalidad virtual en pandemia
         </strong>
         </v-list-item-title>
 
         <v-list-item-subtitle class="body-1">
-                 Nuestra sociedad ha obtenido grandes éxitos con los avances científicos  y
+                 La pandemia por coronavirus creó un cambio en la educación mundial, 
         </v-list-item-subtitle>
 
          <v-list-item-subtitle class="body-1">
-               tecnológicos de las últimas décadas.  
+               pues millones de estudiantes abandonaron las aulas y se trasladaron a la virtualidad en un intento por contener los contagios de coronavirus en todo el mundo.
         </v-list-item-subtitle>
 
         </v-list-item-content>
@@ -234,7 +271,7 @@
         </v-list-item>
 
         <v-card-actions>
-        <v-btn class="ma-2" rounded large outlined color="pink" href="http://edu.educacionbienestaritson.mx/cursos/?redirect=0">SABER MAS ...</v-btn>
+        <v-btn class="ma-2" rounded large outlined color="primary" href="http://edu.educacionbienestaritson.mx/cursos/?redirect=0">SABER MAS ...</v-btn>
         </v-card-actions>
         
         </v-card>
@@ -249,19 +286,19 @@
         <v-list-item three-line>
         <v-list-item-content>
             <div class="text-overline mb-4">
-            Educacion - Alumnos
+            Educacion
             </div>
         <v-list-item-title class="body-1 "><strong>
-            Cursos Educativos Para Alumnos
+           Maestros, tecnología y desigualdad
         </strong>
         </v-list-item-title>
 
         <v-list-item-subtitle class="body-1">
-                 Nuestra sociedad ha obtenido grandes éxitos con los avances científicos  y
+               La educación a distancia adquirió una relevancia que quizás nunca había tenido. 
         </v-list-item-subtitle>
 
         <v-list-item-subtitle class="body-1">
-               tecnológicos de las últimas décadas.  
+             Esta modalidad de educación se distingue porque no requiere de la presencia de estudiantes y docentes en un mismo espacio.
         </v-list-item-subtitle>
 
         </v-list-item-content>
@@ -269,14 +306,79 @@
         </v-list-item>
 
         <v-card-actions>
-        <v-btn class="ma-2" rounded large outlined color="pink" href="http://edu.educacionbienestaritson.mx/cursos/?redirect=0">SABER MAS ...</v-btn>
+        <v-btn class="ma-2" rounded large outlined color="primary" href="https://educacion.nexos.com.mx/pandemia-maestros-tecnologia-y-desigualdad/">SABER MAS ...</v-btn>
         </v-card-actions>
         </v-card>
-    
+
+            <br>
+        <v-card
+            max-width="1400"
+            outlined
+            class="mx-auto grey lighten-3"
+        >
+        
+        <v-list-item three-line>
+        <v-list-item-content>
+            <div class="text-overline mb-4">
+            Educacion
+            </div>
+        <v-list-item-title class="body-1 "><strong>
+            Educación en linea - rol de padres
+        </strong>
+        </v-list-item-title>
+
+        <v-list-item-subtitle class="body-1">
+                los alumnos han tenido que adaptarse a un nuevo método de estudio. 
+        </v-list-item-subtitle>
+
+        <v-list-item-subtitle class="body-1">
+              los alumnos han tenido que adaptarse a un nuevo método de estudio. En este punto el rol de los padres de familia en la educación es esencial.
+        </v-list-item-subtitle>
+
+        </v-list-item-content>
+
+        </v-list-item>
+
+        <v-card-actions>
+        <v-btn class="ma-2" rounded large outlined color="primary" href="https://www.cetys.mx/trends/educacion/el-rol-de-los-padres-de-familia-en-la-educacion-en-linea/">SABER MAS ...</v-btn>
+        </v-card-actions>
+        </v-card>
+
+    <br>
+        <v-card
+            max-width="1400"
+            outlined
+            class="mx-auto grey lighten-3"
+        >
+        
+        <v-list-item three-line>
+        <v-list-item-content>
+            <div class="text-overline mb-4">
+            Sustentabilidad
+            </div>
+        <v-list-item-title class="body-1 "><strong>
+            Un desarrollo sostenible y sustentable
+        </strong>
+        </v-list-item-title>
+
+        <v-list-item-subtitle class="body-1">
+                Siempre que se habla de cuestiones medioambientales y ecológicas están presentes estos dos términos; desarrollo sostenible o sustentable.
+
+        </v-list-item-subtitle>
+
+        <v-list-item-subtitle class="body-1">
+Las diferentes alternativas a futuro hablan de un posible desarrollo sustentable o sostenible del planeta tierra, pero ¿qué quieren decir estos términos?        </v-list-item-subtitle>
+
+        </v-list-item-content>
+
+        </v-list-item>
+
+        <v-card-actions>
+        <v-btn class="ma-2" rounded large outlined color="primary" href="https://www.cetys.mx/trends/educacion/el-rol-de-los-padres-de-familia-en-la-educacion-en-linea/">SABER MAS ...</v-btn>
+        </v-card-actions>
+        </v-card>
     </div>
   </v-flex>
-  
-
 </v-container>
 </template>
 
