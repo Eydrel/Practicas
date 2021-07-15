@@ -202,6 +202,43 @@
         
         </v-card>
         <br>
+        <v-card
+        
+        max-width="1400"
+        outlined
+        class="mx-auto grey lighten-3"
+    >
+        <v-list-item three-line>
+
+        <v-list-item-content>
+
+            <div class="text-overline mb-4">
+                Adultos Mayores
+            </div>
+
+        <v-list-item-title class="body-1 "><strong>
+            Envejecimiento Activo - Curso
+        </strong>
+        </v-list-item-title>
+
+        <v-list-item-subtitle class="body-1">
+                 Nuestra sociedad ha obtenido grandes éxitos con los avances científicos  y
+        </v-list-item-subtitle>
+
+         <v-list-item-subtitle class="body-1">
+               tecnológicos de las últimas décadas.  
+        </v-list-item-subtitle>
+
+        </v-list-item-content>
+
+        </v-list-item>
+
+        <v-card-actions>
+        <v-btn class="ma-2" rounded large outlined color="pink" href="http://edu.educacionbienestaritson.mx/cursos/?redirect=0">SABER MAS ...</v-btn>
+        </v-card-actions>
+        
+        </v-card>
+        <br>
     
         <v-card
             max-width="1400"
