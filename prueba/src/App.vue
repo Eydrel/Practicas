@@ -49,21 +49,21 @@
           
           <v-list-item>
             <v-list-item-icon>
-              <v-icon>mdi-account</v-icon>
+              <v-icon>mdi-alert-circle</v-icon>
             </v-list-item-icon>
             <v-btn  text color="text-uppercase grey--text" x small  :to="{name:'Informativa'}">Informativa</v-btn>
           </v-list-item>
 
           <v-list-item>
             <v-list-item-icon>
-              <v-icon>mdi-account</v-icon>
+              <v-icon>mdi-clipboard-arrow-down-outline</v-icon>
             </v-list-item-icon>
             <v-btn  text color="text-uppercase grey--text" x small  :to="{name:'propo'}">Proposito</v-btn>
           </v-list-item>
       
             <v-list-item>
             <v-list-item-icon>
-              <v-icon>mdi-text</v-icon>
+              <v-icon>mdi-help-circle-outline</v-icon>
             </v-list-item-icon>
             <v-btn  text color="text-uppercase grey--text" x small  :to="{name:'Info'}">Quienes Somos</v-btn>
           </v-list-item>

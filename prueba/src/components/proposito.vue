@@ -2,8 +2,16 @@
 
 
 <v-container grid-list-md>
-
-  <v-parallax src="@/assets/proposito4.jpg"></v-parallax>
+    <!-- Este Div es para la imagén en version celular -->
+  <div class="d-lg-none d-xs-flex">
+    <v-img src="@/assets/celularPortada.png">
+      </v-img>
+  </div>
+  <!-- Este Div es para la imagén en version pantalla Normal -->
+  <div  class="d-none d-lg-block">
+ <v-parallax src="@/assets/proposito4.jpg"></v-parallax>
+  </div>
+ 
 
     <h1 class="text-center"> Propositos </h1>
     <v-slider disabled

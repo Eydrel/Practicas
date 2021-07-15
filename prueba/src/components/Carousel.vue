@@ -1,40 +1,46 @@
 <template>
+<div>
 <v-carousel
 
 height="550"
-
+class="d-lg-none d-xs-flex"
 hide-delimiter-background
 >
-    <v-carousel-item
-      v-for="(item,i) in items"
-      :key="i"
-      :src="item.src"
-      reverse-transition="fade-transition"
-      transition="fade-transition"
-    ></v-carousel-item>
+     <v-carousel-item >
+     <v-img src="@/assets/celularPortada.png">
+      </v-img>
+    </v-carousel-item>
   </v-carousel>
+<div>
+
+  <v-carousel  class="d-none d-lg-block">
+ <v-carousel-item
+ 
+      reverse-transition="fade-transition"
+      transition="fade-transition">
+      <v-img src="@/assets/portada.png">
+      </v-img>
+    </v-carousel-item>
+  </v-carousel>
+</div>
+</div>
+
  
 </template>
 
 <script>
   export default {
-    data () {
-      return {
-        items: [
-          {
-            src: 'https://i.pinimg.com/originals/8f/86/d5/8f86d5fd68e23c7bb04a7bde3bf79f30.jpg',
-          },
-          {
-            src: 'https://cdn.vuetifyjs.com/images/carousel/sky.jpg',
-          },
-          {
-            src: 'https://cdn.vuetifyjs.com/images/carousel/bird.jpg',
-          },
-          {
-            src: 'https://cdn.vuetifyjs.com/images/carousel/planet.jpg',
-          },
-        ],
-      }
-    },
+    data: () => ({
+      model: 0,
+      colors: [
+        'primary',
+        'secondary',
+        'yellow darken-2',
+        'red',
+        'orange',
+      ],
+    }),
   }
 </script>
+
+   
