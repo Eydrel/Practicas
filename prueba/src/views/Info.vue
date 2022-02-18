@@ -2,7 +2,7 @@
     
 <container >
   
-    <h1 class="text-center"> Quienes Somos</h1>
+    <h1 class="text-center"> Quiénes Somos</h1>
      <v-slider disabled
 dense
 hint="im a hint"

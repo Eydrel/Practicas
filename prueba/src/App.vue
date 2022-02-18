@@ -16,6 +16,8 @@
             <v-btn class="ma-2" rounded large outlined color="secondary" :to="{name:'Informativa'}">Informativa</v-btn>
             <v-btn class="ma-2" rounded large outlined color="primary" :to="{name: 'propo'}">Propósito</v-btn>
             <v-btn class="ma-2" rounded large outlined color="blue" :to="{name: 'Info'}">Quiénes Somos</v-btn>
+            <v-btn class="ma-2" rounded large outlined color="blue" :to="{name: 'Salud'}">Salud</v-btn>
+
             </div>
          </v-toolbar-items> 
         </v-toolbar>
@@ -58,7 +60,7 @@
             <v-list-item-icon>
               <v-icon>mdi-clipboard-arrow-down-outline</v-icon>
             </v-list-item-icon>
-            <v-btn  text color="text-uppercase grey--text" x small  :to="{name:'propo'}">Proposito</v-btn>
+            <v-btn  text color="text-uppercase grey--text" x small  :to="{name:'propo'}">Propósito</v-btn>
           </v-list-item>
       
             <v-list-item>

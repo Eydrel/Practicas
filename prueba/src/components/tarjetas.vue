@@ -48,7 +48,7 @@
           >
             Cerrar
           </v-btn>
-          <v-btn color="primary">Conocer más </v-btn>
+          <v-btn color="primary" :to="{name:'Informativa'}">Conocer más </v-btn>
         </v-card-actions>
       </v-card>
    </v-expand-transition>
@@ -99,7 +99,7 @@
           >
             Cerrar
           </v-btn>
-          <v-btn color="primary">Conocer más </v-btn>
+          <v-btn color="primary" :to="{name:'Informativa'}">Conocer más </v-btn>
         </v-card-actions>
       </v-card>
    </v-expand-transition>
@@ -150,7 +150,7 @@
           >
             Cerrar
           </v-btn>
-          <v-btn color="primary">Conocer más </v-btn>
+          <v-btn color="primary" :to="{name:'Informativa'}">Conocer más </v-btn>
         </v-card-actions>
       </v-card>
     </v-expand-transition>
@@ -166,10 +166,10 @@
                 src="@/assets/educacion2.png">
                 </v-img>
                      <v-card-title class="deep-orange lighten-5" >
-                      <h2 >Educacion</h2>
+                      <h2 >Educación</h2>
                     </v-card-title>
                     <v-card-text>
-                Aqui encontraras informacion correspondiente a la educacion, con diverso material de investigacion, en el ambito educativo.                  </v-card-text>
+                Aquí encontraras informacion correspondiente a la educacion, con diverso material de investigacion, en el ambito educativo.                  </v-card-text>
                    <v-card-actions>
       <v-btn
         text
@@ -200,7 +200,7 @@
           >
             Cerrar
           </v-btn>
-          <v-btn color="primary">Conocer más </v-btn>
+          <v-btn color="primary" :to="{name:'Informativa'}">Conocer más </v-btn>
         </v-card-actions>
       </v-card>
     </v-expand-transition>

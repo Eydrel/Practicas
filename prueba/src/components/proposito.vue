@@ -13,7 +13,7 @@
   </div>
  
 
-    <h1 class="text-center"> Propositos </h1>
+    <h1 class="text-center"> Propósitos </h1>
     <v-slider disabled
         dense
         hint="im a hint"
